@@ -1,0 +1,32 @@
+pycache/
+.env
+*.pyc
+__pycache__/
+venv/
+rag_data/
+
+node_modules/
+dist/
+build/
+.DS_Store
+*.log
+.idea/
+
+# Python
+*.pyo
+*.pyd
+
+# Virtual env variants
+env/
+.venv/
+
+# FastAPI / runtime
+*.sqlite3
+
+# FAISS / embeddings (VERY important for your project)
+faiss_store/
+*.faiss
+*.pkl
+.vscode/
+*.swp
+*.swo
